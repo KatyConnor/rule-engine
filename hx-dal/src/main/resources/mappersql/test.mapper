@@ -1,0 +1,25 @@
+namespace hx.com.example.rule.dao.TestObjectMapperDAO;
+
+import hx.com.example.rule.dto.TestObjectDTO testObjectDTO;
+import hx.com.example.rule.param.TestObjectQueryParamDTO param;
+import hx.com.example.rule.param.TestObjectQueryParamDTO param1;
+
+method queryList:
+SELECT column(testObjectDTO) FROM table(testObjectDTO) where param;
+
+method queryAll:
+SELECT column(testObjectDTO),column(testObjectDTO) FROM table(testObjectDTO)
+left testObject join on param.id = param1.id where param AND param.name = ${param1.name};
+
+method insertObject:
+INSERT INTO table(testObjectDTO) (column(testObjectDTO)) VALUES list(param)
+
+SELECT * FROM tess AS t WHERE t.id IN (SELECT id FROM obje AS o WHERE o.name = 2 )
+
+SELECT * FROM tess AS t WHERE t.id IN (SELECT id FROM table(testObjectDTO) WHERE param1.name)
+
+SELECT * FROM table(testObjectDTO) WHERE param.id IN (SELECT id FROM table(testObjectDTO) WHERE param1.name )
+
+SELECT * FROM tess AS t WHERE param AND t.id IN (SELECT id FROM table(testObjectDTO) WHERE param1.name)
+
+

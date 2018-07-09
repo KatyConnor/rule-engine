@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: manage
+  profiles:
+    active: local
+  cloud:
+    config:
+      label: manage
+      profile: local
+      discovery:
+        enabled: true
+        service-id: jdbc-config-server # configServer
+      fail-fast: true
+      username: admin   #权限验证用户
+      password: 123456  #权限验证密码
+  security:
+    user:
+      name: admin
+      password: 123456
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:123456@hx.eureka1.cn/eureka/
+#    healthcheck:
+#      enabled: true
+  instance:
+    prefer-ip-address: true
+    lease-expiration-duration-in-seconds: 90  #续约到期时间(单位 S)默认是90S
+    lease-renewal-interval-in-seconds: 30     # 续约更新时间间隔（默认30秒）
+    instance-id: ${spring.application.name}:${server.port}
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hx-assembly/hx-assembly.iml" filepath="$PROJECT_DIR$/hx-assembly/hx-assembly.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hx-biz/hx-biz.iml" filepath="$PROJECT_DIR$/hx-biz/hx-biz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hx-common/hx-common.iml" filepath="$PROJECT_DIR$/hx-common/hx-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hx-dal/hx-dal.iml" filepath="$PROJECT_DIR$/hx-dal/hx-dal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hx-domain/hx-domain.iml" filepath="$PROJECT_DIR$/hx-domain/hx-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hx-facade/hx-facade.iml" filepath="$PROJECT_DIR$/hx-facade/hx-facade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hx-rule.iml" filepath="$PROJECT_DIR$/hx-rule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hx-test/hx-test.iml" filepath="$PROJECT_DIR$/hx-test/hx-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hx-web/hx-web.iml" filepath="$PROJECT_DIR$/hx-web/hx-web.iml" />
+    </modules>
+  </component>
+</project>

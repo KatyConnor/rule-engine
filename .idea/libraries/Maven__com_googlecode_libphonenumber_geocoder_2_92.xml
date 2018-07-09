@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.googlecode.libphonenumber:geocoder:2.92">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/googlecode/libphonenumber/geocoder/2.92/geocoder-2.92.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/googlecode/libphonenumber/geocoder/2.92/geocoder-2.92-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/googlecode/libphonenumber/geocoder/2.92/geocoder-2.92-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
